@@ -1,0 +1,106 @@
+
+body{
+ font-family:"Lato";
+ background-color:#f2f2f2;
+  color: #555;
+  font-weight: 300;
+  font-size: 16px;
+       -webkit-font-smoothing:antialiased;
+       -webkit-overflow-scrolling:touch;
+
+}
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+
+a:hover, a:focus,{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.navbar-inverse{
+	background:#2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.fa-circle{
+	color:#A64747;
+}
+.p-0{
+	padding:0; 
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+button > a{
+	text-decoration: none;
+	color: black;
+}
+button:focus{
+	color:#A64B00;
+}
+h3, h1{
+	font-family:"Raleway";
+	font-weight: bold;
+	color: #A64B00;
+}
+.p-4{
+	font-size: 22px;
+}
+#p-8{
+	color:black;
+}
+//*.text{
+	position: absolute;
+	height: auto;
+	margin-top: 200px;
+	margin-left: 300px;
+	font-family:Cuprum;
+	font-size: 30px;
+	color: #12151C;
+}
+.strok{
+	font-family:Arial;
+	color: 	#182033;
+	font-size: 25px;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 260px;
+
+}
+.strok ul li{
+     list-style: none;
+}
+#carouselExampleCaptions{
+	position: absolute;
+	right: 270px;
+	top: 90px;
+	width: 408px; 
+	height: 463px;
+}
+#about{
+	position: absolute;
+	color:green;
+	right: 270px;
+	left:270px;
+	top:550px;
+}

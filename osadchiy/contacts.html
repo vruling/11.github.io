@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>teplo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="libs/fontawesome/all.min.css" rel="stylesheet">
+    </head>
+<body style="background-attachment:fixed" topmargin="0">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html">ТЕПЛ<i class="fa fa-circle"></i>АЛЬЯНС</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+    <ul class="navbar navbar-nav  ">
+      <li class="nav-item ">
+        <a class="nav-link " href="about.html"><i class="fa fa-users"></i>О компании</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs"></i>
+          Наша продукция
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Гелиосистемы и солнечные коллекторы</a>
+          <a class="dropdown-item" href="#">Отопительные котлы</a>
+          <a class="dropdown-item" href="#">Системы отопления теплый пол</a>
+          <a class="dropdown-item" href="#">Бойлеры (накопительные водонагреватели)</a>
+          <a class="dropdown-item" href="#">Колонки (проточные водонагреватели)</a>
+          <a class="dropdown-item" href="#">Радиаторы отопления</a>
+          <a class="dropdown-item" href="#">Трубы для системы отопления, водоснабжения, канализации</a>
+          <a class="dropdown-item" href="#">Проектирование котельных и систем отопления<br>Газовые котельные установки</a>
+          <a class="dropdown-item" href="#">Монтаж систем отопления</a>
+          <a class="dropdown-item" href="#">Пуско-наладка и настройка системы отопления</a>
+          <a class="dropdown-item" href="#">Ремонт, замена и сервисное обслуживание котлов и систем отопления</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-images"></i>Фотогалерея</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-map"></i>Карта сайта</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contacts.html"><i class="fa fa-envelope-open"></i>Контакты</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3" id="p-8">Contact
+      <small>Subheading</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumb-item active">Контакты</li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Map Column -->
+      <div class="col-lg-8 mb-4">
+        <!-- Embedded Google Map -->
+        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+      </div>
+      <!-- Contact Details Column -->
+      <div class="col-lg-4 mb-4">
+        <h3>Contact Details</h3>
+        <p>
+          3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </p>
+        <p>
+          <abbr title="Phone">P</abbr>: (123) 456-7890
+        </p>
+        <p>
+          <abbr title="Email">E</abbr>:
+          <a href="mailto:name@example.com">name@example.com
+          </a>
+        </p>
+        <p>
+          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+        </p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Contact Form -->
+    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <div class="row">
+      <div class="col-lg-8 mb-4">
+        <h3>Send us a Message</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Full Name:</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Email Address:</label>
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Message:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+<footer class="py-5 bg-light">
+    <div class="container">
+      <p class="m-0 text-center text-black ">Теплоальянс 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
