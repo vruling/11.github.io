@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 body{
  font-family:"Lato";
  background-color:#f2f2f2;
   color: #555;
+  padding-top: 56px;
   font-weight: 300;
   font-size: 16px;
        -webkit-font-smoothing:antialiased;
@@ -42,6 +43,9 @@ a:hover, a:focus,{
 .p-0{
 	padding:0; 
 }
+.p-50{
+	top: 50px;
+}
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -51,6 +55,10 @@ a:hover, a:focus,{
   -o-background-size: cover;
   background-size: cover;
 }
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
 button > a{
 	text-decoration: none;
 	color: black;
@@ -58,49 +66,11 @@ button > a{
 button:focus{
 	color:#A64B00;
 }
-h3, h1{
+.p-9{
 	font-family:"Raleway";
 	font-weight: bold;
-	color: #A64B00;
+	color: #FA7904FF;
 }
 .p-4{
 	font-size: 22px;
-}
-#p-8{
-	color:black;
-}
-//*.text{
-	position: absolute;
-	height: auto;
-	margin-top: 200px;
-	margin-left: 300px;
-	font-family:Cuprum;
-	font-size: 30px;
-	color: #12151C;
-}
-.strok{
-	font-family:Arial;
-	color: 	#182033;
-	font-size: 25px;
-	position: absolute;
-	margin-top: 300px;
-	margin-left: 260px;
-
-}
-.strok ul li{
-     list-style: none;
-}
-#carouselExampleCaptions{
-	position: absolute;
-	right: 270px;
-	top: 90px;
-	width: 408px; 
-	height: 463px;
-}
-#about{
-	position: absolute;
-	color:green;
-	right: 270px;
-	left:270px;
-	top:550px;
 }
